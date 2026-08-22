@@ -1,4 +1,4 @@
-/*
+
 // data types
 // var can re-declared and re-assigned
  var m = 10;
@@ -60,7 +60,7 @@ console.log(Boolean(""));
 console.log(Boolean("hello"));
 console.log(Boolean(null));  // bolean value of null is false 
 console.log(Boolean(undefined)); //true  
-*/
+
 let a; // type of undefined is undefined
 let b = null; // type of null is object
 
