@@ -22,7 +22,7 @@ console.log(xt);
 
 //remove fist item  = shift
 xt.shift()
-console.log(xt);
+console.log(xt  );
 
 // check item in array = includes
 // check for 45
@@ -37,7 +37,23 @@ console.log(xt.indexOf(89));
 
 // array form in string = join
  newarr  =  xt.join()
-console.log(newarr);
+console.log(newarr); // type string
+
+// slice,splice
+console.log("A",xt);
+// slice = isme end ki range se 1 value km print hoti , orignal array unchange rehta
+let slice_array = xt.slice(1,3);
+console.log(slice_array);
+console.log("B",xt);
+
+// splice = isme eng rang tk value print hoti, orignal array me se splice vala part hat jata
+let splice_array = xt.splice(1,3);
+console.log(splice_array);
+console.log("c",xt);
+
+
+
+
 
 
 
