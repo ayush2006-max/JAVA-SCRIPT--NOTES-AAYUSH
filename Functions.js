@@ -1,5 +1,5 @@
 // functions
-  /*  function myname(){
+   function myname(){
     console.log("a");
     console.log("y");
     console.log("u");
@@ -51,7 +51,7 @@ function loginusermessage(username="sam"){
 }
 console.log(loginusermessage());
 console.log(loginusermessage("ayush")); // ayush just logged in = output 
-*/
+
 
 //++++++++++functions part 2 +++++++++
 // shoping cart,rest opretor=...num1 = output= jo vi hoga box me sb ayega
@@ -98,8 +98,7 @@ function applogin(anyobject){
     console.log(anyobject.id);
 
 }
-applogin(user) // aayush = output
-
+applogin(user) // aayush = output 
 
 
 
